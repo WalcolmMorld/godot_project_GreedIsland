@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Objects/Rocks/RockTest.png" type="Texture" id=1]
+
+[node name="BigRock" type="StaticBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, -5.42576 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( 0, -5.42576 )
+polygon = PoolVector2Array( -0.38707, 14.6214, 6.97117, 16.3309, 11.4307, 16.5539, 15.7416, 13.7295, 20.4984, 9.79025, 24.6607, 8.60104, 24.735, 4.73611, 23.0255, 0.722521, 18.1944, -2.84511, 9.86987, -3.66269, 4.07247, -4.2573, -2.17089, -5.00056, -6.77908, -4.03432, -11.3129, -2.10185, -17.9279, -0.243713, -21.1983, 2.06038, -23.3537, 4.58746, -25.6578, 6.81723, -25.5091, 9.19565, -24.1036, 10.7679, -22.7657, 10.7679, -20.2387, 10.322, -18.0089, 10.3963, -15.1845, 11.2139, -12.5831, 13.7409, -10.1981, 14.6214, -6.48178, 14.7701 )
